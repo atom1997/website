@@ -39,110 +39,126 @@ body {
   font-size: 2em;
 }
 
+/*************************************SKILLS SECTION CSS*******************************************************/
 .skills {
   position: relative;
   width: 50%;
   margin: 0 auto;
-  display: inline-block;
-}
-
-.skills h2 {
-  font-size: 4.5em;
 }
 
 .skills h3 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
-.skills img {
-  height: 6em;
-  display: inline-block
+.skills h4 {
+  font-size: 2.5rem;
 }
 
-.html{
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.html img{
-  margin: 20px;
+.html {
+  width: 70%;
   position: relative;
-  margin-right: 100px;
+  display: inline-block;
 }
-.html h3{
+
+.html h4 {
+  padding-left: 2rem;
   position: relative;
-  margin-left: 100px;
+  display: inline-grid;
 }
-.CSS{
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.CSS img{
-  margin: 20px;
+
+.ion-social-html5 {
+  font-size: 2.5rem;
   position: relative;
-  margin-right: 100px;
+  display: inline-grid;
 }
-.CSS h3{
+
+.css {
+  width: 70%;
   position: relative;
-  margin-left: 100px;
+  display: inline-block;
 }
-.C++ {
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.C++ img{
-  margin: 20px;
+
+.css h4 {
+  padding-left: 2rem;
   position: relative;
-  margin-right: 100px;
+  display: inline-grid;
 }
-.C++h3{
+
+.ion-social-css3 {
+  font-size: 2.5rem;
   position: relative;
-  margin-left: 100px;
+  display: inline-grid;
 }
-.SQL{
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.SQL img{
-  margin: 20px;
+
+.SQL {
+  width: 70%;
   position: relative;
-  margin-right: 100px;
+  display: inline-block;
 }
-.SQL h3{
+
+.SQL h4 {
+  padding-left: 2rem;
   position: relative;
-  margin-left: 100px;
+  display: inline-grid;
 }
-.SPONSOR{
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.SPONSOR img{
-  margin: 20px;
+
+.SQLI {
+  max-height: 2.5rem;
   position: relative;
-  margin-right: 100px;
+  display: inline-grid;
 }
-.SPONSOR h3{
+.cplus{
+  width: 70%;
   position: relative;
-  margin-left: 100px;
+  display: inline-block;
 }
-.TEAM{
-  max-width: 50%;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.TEAM img{
-  margin: 20px;
+.cplus h4{
+  padding-left: 2rem;
   position: relative;
-  margin-right: 100px;
+  display: inline-grid;
 }
-.TEAM h3{
+.cplusi{
+  max-height: 2.5rem;
   position: relative;
-  margin-left: 100px;
+  display: inline-grid;
 }
+.TEAM {
+  position: relative;
+  display: inline-block;
+}
+
+.TEAM h4 {
+  padding-left: 2rem;
+  position: relative;
+  display: inline-grid;
+}
+
+.TEAMI {
+  max-height: 2.5rem;
+  position: relative;
+  display: inline-grid;
+}
+
+.SPONSOR {
+  width: 70%;
+  position: relative;
+  display: inline-block;
+}
+
+.SPONSOR h4 {
+  font-size: 2rem;
+  padding-left: 2rem;
+  position: relative;
+  display: inline-grid;
+}
+
+.SPONSORI{
+  max-height: 2.5rem;
+  position: relative;
+  display: inline-grid;
+}
+
+/*************************************CERTIFICATION SECTION CSS*******************************************************/
 .flex-container {
   display: flex;
   flex-direction: row;
